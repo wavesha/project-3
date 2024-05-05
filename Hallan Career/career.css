@@ -1,0 +1,31 @@
+body{
+    background-color: #482121;
+    padding: 10px;
+    margin: 10px;
+}
+.dia{
+    color: rgb(28, 124, 207);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    
+}
+p{
+    color: aliceblue;
+    font-size: medium;
+}
+.emo{
+    color: rgb(201, 212, 48);
+    text-decoration: underline;
+    font-weight: bold;
+}
+h4{
+    color: aliceblue;
+}
+.ff{
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}

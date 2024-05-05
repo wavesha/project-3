@@ -1,0 +1,81 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+/*--------------- navigation------------*/
+nav{
+    display: flex; /* Use flexbox to align elements horizontally */
+    align-items: center; /* Vertically center the logo and nav */
+    justify-content: space-between; /* Push the logo and nav to opposite ends */
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #333; /* Background color for the header */
+}
+a{
+    font-size: 20px;
+    color:#FFAA4C ;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 40px;
+    margin: 20px;
+    list-style-type: none; /* Remove list bullets */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    
+}
+.emo img{
+    
+        flex: 1; /* Allow the logo to grow and take available space */
+
+   
+}
+.set{
+    background-color: rgb(211, 138, 29);
+    
+    
+}
+
+.set {
+    display: flex;
+    justify-content: center;
+  
+  }
+
+
+.text {
+    font-size: 17px;
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center both vertically and horizontally */
+    z-index: 1; /* Place the text above the image */
+    color:#F0DE36; /* Text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional text shadow for better visibility */
+  
+  }
+  .skills{
+    background-color: bisque;
+    color: cadetblue;
+    list-style-type: none;
+    width: 100%; /* 100% width of its parent container */
+    height: 100%; /* 100% height of its parent container */
+    display: flex;
+    text-align: center;
+    flex: 1; /* Allow the logo to grow and take available space */
+    justify-content: space-between;
+    
+    margin: 0 auto;
+
+  }
+
+  .final{
+    background-color: rgb(47, 73, 64);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ebebf0;
+    text-align: center;
+}
+
